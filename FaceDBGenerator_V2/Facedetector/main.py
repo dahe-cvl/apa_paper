@@ -24,7 +24,7 @@ size_f_old = 0;
 size_l_old = 0;
 
 def runOnVideo():
-	input_path = "/media/administrator/Working/Daniel/Masterarbeit/Implementierung/Masterarbeit/FaceDBGenerator_V2/Facedetector/";
+	input_path = "XXXXX/FaceDBGenerator_V2/Facedetector/";
 	filename = "CFK8ib0aWe8.000.mp4";
 	print("create image extractor...");
 	imageExtractor = ImageExtractor(input_path);
@@ -231,7 +231,7 @@ def main(argv):
 
 	if (input_path == "" or output_path == ""):
 		print("ERROR: false input!");
-		print("Example: preProcessing_v2.py -i <inputfile> -o <outputfile>");
+		print("Example: main.py -i <inputfile> -o <outputfile>");
 		sys.exit();
 	else:
 		#run();
